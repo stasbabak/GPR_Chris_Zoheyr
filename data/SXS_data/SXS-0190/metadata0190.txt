@@ -1,0 +1,134 @@
+
+#--------------------------------
+# Overall label for this simulation
+#--------------------------------
+
+# Short descriptive name
+# NOTE: this name is not necessarily unique! Please use the SXS or PRIVATE
+# identifier in alternative-names to unambiguously refer to this simulation.
+simulation-name = BBH_SKS_d13.5_q4.50_sA_0_0_0_sB_0_0_0/Lev3
+
+# Other names under which this run has been referenced (e.g. papers)
+alternative-names = PRIVATE:BBH:0136, SXS:BBH:0190
+
+# Keywords to qualitatively identify this simulation
+keywords = 
+
+#--------------------------------
+# Researchers
+#--------------------------------
+
+# Point-of-contact for this waveform.  Usually the person having placed the
+# waveform into the repository
+point-of-contact-email = jonathan.blackman.0@gmail.com
+
+# Researchers who contributed to the generation of this waveform.
+# (typically this is the list of authors for publications using this
+#  waveform).
+authors-emails         = 
+
+#--------------------------------
+# references
+#--------------------------------
+
+# (1) papers describing this particular run (if any)
+simulation-bibtex-keys = SXSCatalog,Blackman:2015pia
+
+# (2) papers describing the evolution code
+code-bibtex-keys = Ossokine:2013zga,Hemberger:2012jz,Szilagyi:2009qz,Boyle:2009vi,Scheel:2008rj,Boyle:2007ft,Scheel:2006gg,Lindblom:2005qh,Pfeiffer:2002wt,SpECwebsite
+
+# (3) papers describing the initial data
+initial-data-bibtex-keys = Buchman:2012dw,Lovelace:2008tw,Pfeiffer:2007yz,Caudill:2006hw,Cook:2004kt
+
+# (4) papers describing eccentricity reduction
+quasicircular-bibtex-keys = Mroue:2012kv,Buonanno:2010yk,Mroue:2010re,Boyle:2007ft
+
+#--------------------------------
+# Input Parameters for Initial Data
+#--------------------------------
+
+initial-data-type         = BBH_SKS
+initial-separation        = 13.5000000000000000
+initial-orbital-frequency = 0.0183661900000000
+initial-adot              = 0.0000108347170000
+
+# Type of compact object (bh or ns)
+object1 = bh
+object2 = bh
+
+#--------------------------------
+# t=0 quantities
+#--------------------------------
+
+initial-ADM-energy           =  0.9952134266955643
+initial-ADM-linear-momentum  =  0.0000000014953049,  -0.0000000073568347,   0.0000000009620060
+initial-ADM-angular-momentum =  -0.0000622292982974,  -0.0004246954368250,   0.6346648004114472
+
+# Christodoulou masses at t=0
+initial-mass1     =  0.8181405363451870
+initial-mass2     =  0.1818595629888730
+
+# dimensionful spins at t=0
+initial-spin1     =  4.22235157132e-12 ,-5.95015488945e-12 ,-1.973728774e-09
+initial-spin2     =  1.79341111067e-13 ,6.67516968409e-13 ,-5.21790494751e-09
+
+initial-position1 = 2.4537772820130019,   0.0354011866536579,   0.0000000000000000
+initial-position2 = -11.0462227179869981,   0.0354011866536579,   0.0000000000000000
+
+#--------------------------------
+# Relaxed quantities
+#--------------------------------
+
+# time at which the relaxed quantities are measured
+relaxed-measurement-time = 340.0
+
+# Christodoulou masses at relaxed time
+relaxed-mass1    = 0.818141639858
+relaxed-mass2    = 0.18185882621
+
+# dimensionful spin, i.e. S_i = M_i^2 \chi_i  at relaxed time
+relaxed-spin1    = -2.47281715342e-08, 5.59984406375e-08, -2.0789373078e-05
+relaxed-spin2    = 1.8020687918e-09, 2.56045549458e-09, 3.90668698128e-07
+
+# black hole centers at relaxed time
+relaxed-position1 = 2.49840969029, 0.0794232212561, 6.27754904809e-06
+relaxed-position2 = -11.3591261076, -0.463385280469, 8.9706811859e-06
+
+# orbital frequency at relaxation time
+relaxed-orbital-frequency = 3.61932179287e-09, 5.97369631012e-10, 0.0187436546148
+
+#--------------------------------
+# info that concerns complete run
+#--------------------------------
+
+# orbital eccentricity measured at relaxed-measurement-time
+relaxed-eccentricity = <2.4e-05
+
+# time when the common horizon is first detected
+common-horizon-time  = 4712.70803808
+
+# number of orbits between t=0 common-horizon-time
+number-of-orbits     = 20.0974043975
+
+#--------------------------------
+# Remnant properties
+#--------------------------------
+
+# mass of final BH (remnant)
+remnant-mass     =  0.980305971293
+
+# dimensionful spin of BH remnant
+remnant-spin     =  7.06593786955e-08, 5.39689629479e-08, 0.425384587166
+
+# coordinate velocity of remnant
+remnant-velocity = 0.00017507243913, -0.000439143159319, 3.97952410249e-08
+
+#--------------------------------
+# Code information
+#--------------------------------
+
+# unique, ordered list of revisions used for the evolution
+spec-revisions  = InitialCommit-23956-g9058fb8
+
+# revision used for the initial data creation
+spells-revision = 9058fb83d071c95c1991f31915c59199e8029863

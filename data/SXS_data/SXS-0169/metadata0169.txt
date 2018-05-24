@@ -1,0 +1,132 @@
+
+#--------------------------------
+# Overall label for this simulation
+#--------------------------------
+
+# (generally, just the directory name)
+simulation-name = d13_q2_sA_0_0_0_sB_0_0_0/Lev5
+
+# Other names under which this run has been referenced (e.g. papers)
+alternative-names = SXS:BBH:0169
+
+# Keywords to qualitatively identify this simulation
+keywords = Non-Spinning,ManyMergers-QuasiCircular
+
+#--------------------------------
+# Researchers
+#--------------------------------
+
+# Point-of-contact for this waveform.  Usually the person having placed the
+# waveform into the repository
+point-of-contact-email = mroue@cita.utoronto.ca
+
+# Researchers who contributed to the generation of this waveform.
+# (typically this is the list of authors for publications using this
+#  waveform).
+authors-emails         = Mike Boyle <boyle@astro.cornell.edu>, Dan Hemberger <daniel.hemberger@gmail.com>, Larry Kidder  <kidder@astro.cornell.edu>, Geoffrey Lovelace <glovelace@fullerton.edu>, Abdul Mroue <mroue@cita.utoronto.ca>, Harald Pfeiffer <pfeiffer@cita.utoronto.ca>, Mark Scheel <scheel@tapir.caltech.edu>, Bela Szilagyi <bela@caltech.edu>, Nicholas Taylor <nwt2@cornell.edu>, Anil Zenginoglu <anil@caltech.edu>
+
+#--------------------------------
+# references
+#--------------------------------
+
+# (1) papers describing this particular run (if any)
+simulation-bibtex-keys = SXS:catalog,Mroue:2013xna,Buchman:2012dw
+
+# (2) papers describing the evolution code
+code-bibtex-keys = Ossokine:2013zga,Hemberger:2012jz,Szilagyi:2009qz,Boyle:2009vi,Scheel:2008rj,Boyle:2007ft,Scheel:2006gg,Lindblom:2005qh,Pfeiffer:2002wt,SpECwebsite
+
+# (3) papers describing the initial data
+initial-data-bibtex-keys = Buchman:2012dw,Lovelace:2008tw,Pfeiffer:2007yz,Caudill:2006hw,Cook:2004kt
+
+# (4) papers describing eccentricity reduction
+quasicircular-bibtex-keys = Buonanno:2010yk,Mroue:2010re,Boyle:2007ft
+
+#--------------------------------
+# Input Parameters for Initial Data
+#--------------------------------
+
+initial-data-type         = BBH_CFMS
+initial-separation        = 13.8737999999999992
+initial-orbital-frequency = 0.0176711000000000
+initial-adot              = -0.0000625272000000
+
+# Type of compact object (bh or ns)
+object1 = bh
+object2 = bh
+
+#--------------------------------
+# t=0 quantities
+#--------------------------------
+
+initial-ADM-energy           =  0.9930250906820281553422
+initial-ADM-linear-momentum  =  -1.05117598170858163622e-09, 5.538598470193989457045e-10, 4.035253238296491484243e-10
+initial-ADM-angular-momentum =  1.198585351969613343417e-08, 1.418717438848160518457e-08, 0.9554492692265965647636
+
+# Christodoulou masses at t=0
+initial-mass1     =  0.666666666897367
+initial-mass2     =  0.333333332087215
+
+# dimensionful spins at t=0
+initial-spin1     =  8.48388539771e-10 ,9.13005105263e-10 ,1.39419607353e-08
+initial-spin2     =  -1.050966103e-12 ,-3.86484035751e-12 ,7.74859870136e-11
+
+initial-position1 = 4.6150844891756293, 0.0137277895931247, 0.0
+initial-position2 = -9.25871551082437, 0.0137277895931247, 0.0
+
+#--------------------------------
+# Relaxed quantities
+#--------------------------------
+
+# time at which the relaxed quantities are measured
+relaxed-measurement-time = 260.0
+
+# Christodoulou masses at relaxed time
+relaxed-mass1    = 0.666666781212
+relaxed-mass2    = 0.33333390306
+
+# dimensionful spin, i.e. S_i = M_i^2 \chi_i  at relaxed time
+relaxed-spin1    = -1.08347393456e-10, -1.08347393456e-10, 1.10724980405e-07
+relaxed-spin2    = 4.23446897364e-11, 4.23446897364e-11, 5.87998014159e-08
+
+# black hole centers at relaxed time
+relaxed-position1 = -0.453943029033, -4.57423568401, -9.66968153697e-10
+relaxed-position2 = 0.833368070187, 9.08998691906, 1.62287713408e-09
+
+# orbital frequency at relaxation time
+relaxed-orbital-frequency = 3.68732823332e-12, -3.75767911429e-12, 0.0179929764713
+
+#--------------------------------
+# info that concerns complete run
+#--------------------------------
+
+# orbital eccentricity measured at relaxed-measurement-time
+relaxed-eccentricity = <1.2e-04
+
+# time when the common horizon is first detected
+common-horizon-time  = 3727.4654508
+
+# number of orbits between t=0 common-horizon-time
+number-of-orbits     = 15.6805252633
+
+#--------------------------------
+# Remnant properties
+#--------------------------------
+
+# mass of final BH (remnant)
+remnant-mass     =  0.961246130167
+
+# dimensionful spin of BH remnant
+remnant-spin     =  -8.93177574144e-05, -8.93177574144e-05, 0.576054
+
+# coordinate velocity of remnant
+remnant-velocity = -0.000457766368958, 0.000212721367819, 1.85904028612e-09
+
+#--------------------------------
+# Code information
+#--------------------------------
+
+# unique, ordered list of revisions used for the evolution
+spec-revisions  = 
+
+# revision used for the initial data creation
+spells-revision = 
